@@ -1,26 +1,26 @@
-# Privacy Policy for Jolt
+# Privacy Policy for Nextech Systems Apps
 
-**Last updated:** 28 April 2026
+**Last updated:** 8 May 2026
 
-This privacy policy explains how the Jolt mobile application ("Jolt", "the app") handles your information.
+This privacy policy explains how the mobile applications published by **Nextech Systems** ("we", "us", "our") handle your information. It applies to every app we publish unless an individual app's store listing or in-app notice says otherwise.
 
-Jolt is published by **Nextech Systems** ("we", "us"). For privacy questions, contact us at **nextech@nextechsystems.com.au**.
+For privacy questions, contact us at **nextech@nextechsystems.com.au**.
 
 ## Summary
 
 - We do not run our own servers and we do not collect personal data directly.
-- All your alarm settings, sounds, and streak statistics are stored only on your device.
-- The app shows ads via Google AdMob and offers a one-time "Remove Ads" purchase via Google Play Billing. Those services collect their own data, described below.
+- Settings and progress for each of our apps are stored only on your device.
+- Some apps display ads via Google AdMob, and some offer in-app purchases via Google Play Billing. Those services collect their own data, described below.
 
 ## Data we collect
 
-**None directly.** Jolt does not transmit your alarms, audio choices, or usage to any server we control.
+**None directly.** Our apps do not transmit your settings, content, or usage to any server we control.
 
 ## Data collected by third parties
 
 ### Google AdMob
 
-Jolt displays ads using Google AdMob. AdMob collects information including:
+Some of our apps display ads using Google AdMob. AdMob collects information including:
 
 - Advertising ID
 - IP address
@@ -31,48 +31,31 @@ This data is used to serve and measure ads, prevent fraud, and apply frequency c
 
 You can reset or limit your Advertising ID in your device settings (Settings → Google → Ads).
 
-If you purchase **Remove Ads**, AdMob is no longer initialised and no further ad-related data is collected.
+If an app offers a "Remove Ads" purchase and you complete it, AdMob is no longer initialised in that app and no further ad-related data is collected by us through it.
 
 ### Google Play Billing
 
-The one-time "Remove Ads" purchase is processed by Google Play Billing. Google handles the transaction, including your payment information; Jolt only receives a confirmation that the purchase succeeded. See Google's payments policy for details.
+In-app purchases, where offered, are processed by Google Play Billing. Google handles the transaction, including your payment information; we only receive a confirmation that the purchase succeeded. See Google's payments policy for details.
 
 ## Data stored on your device
 
-The following data is stored locally on your device using the Android system's preferences and file storage. It never leaves your device unless you explicitly export it:
+Each app stores its own settings and progress locally using the Android system's preferences and file storage. Depending on the app, this may include saved sessions, statistics, custom preferences, sound or theme choices, and purchase status. None of it leaves your device unless you explicitly export or share it from within the app.
 
-- Your alarm list and settings
-- Sound preferences (including any custom audio file paths you select)
-- Streak and dismissal statistics
-- Theme preference (light / dark / system)
-- "Remove Ads" purchase status
-
-Uninstalling the app removes this data.
-
-## Backup and export
-
-Jolt lets you manually export your alarms to a JSON file using the Android share sheet. The destination is whatever you choose (email, cloud storage, file manager). We do not receive a copy.
+Uninstalling an app removes its locally stored data.
 
 ## Permissions
 
-Each permission Jolt requests is used only for the feature it enables:
+Each app requests only the permissions required for its features. The Play Store listing for each app discloses the full set of permissions it uses. Common permissions across our apps include:
 
-- **Notifications** — show alarm alerts
-- **Schedule exact alarms** — trigger alarms at the precise time you set
-- **Foreground service** — keep alarm audio playing through dismissal
-- **Vibrate** — alarm vibration
-- **Wake lock & full-screen intent** — wake the screen when an alarm fires
-- **Boot completed** — restore scheduled alarms after a device restart
-- **Battery optimisation exemption** — prevent the OS from killing scheduled alarms
-- **Internet** — display ads via AdMob (only if you have not purchased Remove Ads)
-- **Billing** — process the Remove Ads in-app purchase
-- **Camera flashlight** — optional flashing-torch alarm option
+- **Notifications** — for in-app alerts
+- **Internet** — to display ads via AdMob (only in apps that show ads)
+- **Billing** — to process in-app purchases (only in apps that offer them)
 
-Jolt does **not** request location, microphone, contacts, calendar, SMS, or camera image access.
+Apps with specialised features may request additional permissions; these are disclosed in each app's store listing. We do not request location, microphone, contacts, calendar, SMS, or camera image access in any of our apps unless that app explicitly states otherwise in its store listing, and any such permission is used only for the disclosed feature.
 
 ## Children
 
-Jolt is not directed at children under 13. If you believe a child has used the app in a way that requires action, contact us at **nextech@nextechsystems.com.au**.
+Our apps are not directed at children under 13. If you believe a child has used one of our apps in a way that requires action, contact us at **nextech@nextechsystems.com.au**.
 
 ## Data sale
 
@@ -80,7 +63,7 @@ We do not sell personal information.
 
 ## Changes to this policy
 
-If we update this policy, we will change the "Last updated" date above. Material changes will be reflected in app store release notes.
+If we update this policy, we will change the "Last updated" date above. Material changes will be reflected in store release notes for the affected apps.
 
 ## Contact
 

@@ -1,6 +1,6 @@
 # Privacy Policy for Nextech Systems Apps
 
-**Last updated:** 8 May 2026
+**Last updated:** 6 August 2026
 
 This privacy policy explains how the mobile applications published by **Nextech Systems** ("we", "us", "our") handle your information. It applies to every app we publish unless an individual app's store listing or in-app notice says otherwise.
 
@@ -41,7 +41,22 @@ In-app purchases, where offered, are processed by Google Play Billing. Google ha
 
 Each app stores its own settings and progress locally using the Android system's preferences and file storage. Depending on the app, this may include saved sessions, statistics, custom preferences, sound or theme choices, and purchase status. None of it leaves your device unless you explicitly export or share it from within the app.
 
-Uninstalling an app removes its locally stored data.
+## How we keep your data secure
+
+We take the security of user data seriously and apply the following practices:
+
+- **Data stays on your device.** Because we operate no servers and collect no personal data ourselves, there is no central store of user data for us to hold, transfer, or expose.
+- **Protected local storage.** Data our apps write is stored in the app's private storage area, isolated by the Android application sandbox so that other apps on the device cannot read it.
+- **Encryption in transit.** All network communication performed by the third-party services our apps embed (Google AdMob and Google Play Billing) takes place over encrypted HTTPS/TLS connections. Our apps make no unencrypted network requests.
+- **Minimal data handling.** Our apps request only the permissions their features require and collect no personal or sensitive user data, which removes the need to transmit, process, or store it.
+- **Vetted third parties.** The only third-party services our apps integrate are Google AdMob and Google Play Billing, which apply Google's own security and data-protection standards, described at https://policies.google.com/privacy
+
+## Data retention and deletion
+
+- **Data on your device** is kept for as long as the app is installed. You can delete all of it at any time by uninstalling the app, or by using Android's **Settings → Apps → [app name] → Storage → Clear data**. No copy is retained by us, because no copy is ever sent to us.
+- **Data collected by Google AdMob and Google Play Billing** is retained and deleted according to Google's own policies. You can review and delete advertising data, or reset your Advertising ID, through your Google account and device settings.
+- **Correspondence.** If you email us with a privacy question, we keep that email only as long as needed to answer you. To have it deleted, write to **nextech@nextechsystems.com.au** and we will remove it.
+- **Deletion requests.** To request deletion of any data you believe we hold, contact **nextech@nextechsystems.com.au**. We will respond within 30 days.
 
 ## Permissions
 

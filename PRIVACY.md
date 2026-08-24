@@ -1,6 +1,6 @@
 # Privacy Policy for Nextech Systems Apps
 
-**Last updated:** 6 August 2026
+**Last updated:** 24 August 2026
 
 This privacy policy explains how the mobile applications published by **Nextech Systems** ("we", "us", "our") handle your information. It applies to every app we publish unless an individual app's store listing or in-app notice says otherwise.
 
@@ -40,6 +40,18 @@ In-app purchases, where offered, are processed by Google Play Billing. Google ha
 ## Data stored on your device
 
 Each app stores its own settings and progress locally using the Android system's preferences and file storage. Depending on the app, this may include saved sessions, statistics, custom preferences, sound or theme choices, and purchase status. None of it leaves your device unless you explicitly export or share it from within the app.
+
+## App-specific disclosures
+
+### Acuity (launcher and focus tool)
+
+Acuity is a home-screen launcher with focus features. **It collects no data.** It has no internet permission, no analytics, no accounts and no advertising.
+
+- **Accessibility service.** If you enable it, Acuity uses Android's accessibility service solely to detect that an app section you blocked (for example Reels or Shorts) or a website you blocked is on screen, so it can show you the pause screen you configured. Screen content is examined on your device at the moment of the check and is never recorded, stored or transmitted. The service only receives information about the specific apps your own rules cover; with no such rules it receives nothing.
+- **Usage access.** If you enable it, Acuity reads your device's app-usage statistics to show screen-time figures and enforce the limits you set. This information stays on your device.
+- **App list.** As a launcher, Acuity lists the apps installed on your device in order to display and open them. The list is read locally and never leaves your device.
+- **Your rules, messages and settings** are stored only on your device and can be exported by you as a plain file that you keep.
+- **Purchases.** Acuity offers a single one-time unlock via Google Play Billing (see above). There is no subscription.
 
 ## How we keep your data secure
 

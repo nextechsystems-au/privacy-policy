@@ -76,9 +76,9 @@ We take the security of user data seriously and apply the following practices:
 
 Each app requests only the permissions required for its features. The Play Store listing for each app discloses the full set of permissions it uses. Common permissions across our apps include:
 
-- **Notifications** — for in-app alerts
-- **Internet** — to display ads via AdMob (only in apps that show ads)
-- **Billing** — to process in-app purchases (only in apps that offer them)
+- Notifications, for in-app alerts
+- Internet access, to display ads via AdMob (only in apps that show ads)
+- Billing, to process in-app purchases (only in apps that offer them)
 
 Apps with specialised features may request additional permissions; these are disclosed in each app's store listing. We do not request location, microphone, contacts, calendar, SMS, or camera image access in any of our apps unless that app explicitly states otherwise in its store listing, and any such permission is used only for the disclosed feature.
 

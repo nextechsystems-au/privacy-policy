@@ -1,6 +1,6 @@
 # Privacy Policy for Nextech Systems Apps
 
-**Last updated:** 28 August 2026
+**Last updated:** 31 August 2026
 
 This privacy policy explains how the mobile applications published by **Nextech Systems** ("we", "us", "our") handle your information. It applies to every app we publish unless an individual app's store listing or in-app notice says otherwise.
 
@@ -11,10 +11,13 @@ For privacy questions, contact us at **nextech@nextechsystems.com.au**.
 - We do not run our own servers and we do not collect personal data directly.
 - Settings and progress for each of our apps are stored only on your device.
 - Some apps display ads via Google AdMob, and some offer in-app purchases via Google Play Billing. Those services collect their own data, described below.
+- One app, **Rursus**, sends a word you type to a third-party translation service when you ask it to look up a meaning. This is the only case where content you have written leaves your device, it happens only when you press the button, and it is described in full under "Rursus" below.
 
 ## Data we collect
 
-**None directly.** Our apps do not transmit your settings, content, or usage to any server we control.
+**None directly.** We operate no servers, and our apps do not transmit your settings, content, or usage to any server we control.
+
+One app sends content to a third party at your request: when you press "Translate" in **Rursus**, the single word you typed is sent to a translation service so it can be looked up. We never receive it. See "Rursus" below.
 
 ## Data collected by third parties
 
@@ -33,6 +36,20 @@ You can reset or limit your Advertising ID in your device settings (Settings →
 
 If an app offers a "Remove Ads" purchase and you complete it, AdMob is no longer initialised in that app and no further ad-related data is collected by us through it.
 
+### MyMemory (translation lookups in Rursus)
+
+**Rursus only.** When you press "Translate" while adding a word, Rursus sends that word and the two language codes you selected to MyMemory, a translation service operated by Translated s.r.l., and shows you the result. MyMemory receives:
+
+- The single word or short phrase you typed
+- The language pair you chose
+- Your IP address, as with any web request
+
+Rursus uses MyMemory's **lookup** endpoint only. It does not submit or contribute anything to MyMemory's public translation archive, and nothing you type is added to it by us.
+
+Nothing is sent unless you press the button. You can avoid the service entirely by typing the meaning yourself, which is fully supported and is what the app does by default; every fetched meaning is editable before you save it. Rursus sends no account, device or usage information with the request, and we never see the request or its result.
+
+MyMemory's privacy policy: https://translated.com/privacy-policy
+
 ### Google Play Billing
 
 In-app purchases, where offered, are processed by Google Play Billing. Google handles the transaction, including your payment information; we only receive a confirmation that the purchase succeeded. See Google's payments policy for details.
@@ -42,6 +59,17 @@ In-app purchases, where offered, are processed by Google Play Billing. Google ha
 Each app stores its own settings and progress locally using the Android system's preferences and file storage. Depending on the app, this may include saved sessions, statistics, custom preferences, sound or theme choices, and purchase status. None of it leaves your device unless you explicitly export or share it from within the app.
 
 ## App-specific disclosures
+
+### Rursus (vocabulary flashcards)
+
+Rursus asks you about words you chose to remember, as a notification, at times you cannot predict.
+
+- **Your words.** The words you add, their meanings, your notes, and how well you are doing on each are stored only on your device, in the app's private storage. We never receive them.
+- **Translation lookups.** Pressing "Translate" sends that one word to MyMemory, as described above. This is optional: you can type the meaning yourself instead, and you can edit anything it returns before saving.
+- **Notifications.** Rursus asks its questions in the notification shade, so it needs notification permission. Without it the app cannot function.
+- **Alarms.** Rursus schedules a system alarm so a question can arrive at the right moment. If you allow exact alarms, questions arrive on time; if you do not, Android batches them and they may arrive late. Either way, nothing about the schedule leaves your device.
+- **Ads.** Rursus displays ads via Google AdMob, described above.
+- **Backup.** If you have Android backup enabled, your word list is included in your own device backup, held in your Google account under Google's terms. We have no access to it.
 
 ### Acuity (launcher and focus tool)
 
@@ -61,14 +89,15 @@ We take the security of user data seriously and apply the following practices:
 
 - **Data stays on your device.** Because we operate no servers and collect no personal data ourselves, there is no central store of user data for us to hold, transfer, or expose.
 - **Protected local storage.** Data our apps write is stored in the app's private storage area, isolated by the Android application sandbox so that other apps on the device cannot read it.
-- **Encryption in transit.** All network communication performed by the third-party services our apps embed (Google AdMob and Google Play Billing) takes place over encrypted HTTPS/TLS connections. Our apps make no unencrypted network requests.
+- **Encryption in transit.** All network communication our apps perform or embed - Google AdMob, Google Play Billing, and the Rursus translation lookup - takes place over encrypted HTTPS/TLS connections. Our apps make no unencrypted network requests.
 - **Minimal data handling.** Our apps request only the permissions their features require and collect no personal or sensitive user data, which removes the need to transmit, process, or store it.
-- **Vetted third parties.** The only third-party services our apps integrate are Google AdMob and Google Play Billing, which apply Google's own security and data-protection standards, described at https://policies.google.com/privacy
+- **Vetted third parties.** The third-party services our apps integrate are Google AdMob and Google Play Billing, which apply Google's own security and data-protection standards (https://policies.google.com/privacy), and, in Rursus only, the MyMemory translation service described above.
 
 ## Data retention and deletion
 
 - **Data on your device** is kept for as long as the app is installed. You can delete all of it at any time by uninstalling the app, or by using Android's **Settings → Apps → [app name] → Storage → Clear data**. No copy is retained by us, because no copy is ever sent to us.
 - **Data collected by Google AdMob and Google Play Billing** is retained and deleted according to Google's own policies. You can review and delete advertising data, or reset your Advertising ID, through your Google account and device settings.
+- **Translation lookups (Rursus).** Retained and deleted according to MyMemory's own policy. We hold no copy, because the request goes from your device straight to their service and never passes through us.
 - **Correspondence.** If you email us with a privacy question, we keep that email only as long as needed to answer you. To have it deleted, write to **nextech@nextechsystems.com.au** and we will remove it.
 - **Deletion requests.** To request deletion of any data you believe we hold, contact **nextech@nextechsystems.com.au**. We will respond within 30 days.
 

@@ -50,6 +50,33 @@ Nothing is sent unless you press the button. You can avoid the service entirely 
 
 MyMemory's privacy policy: https://translated.com/privacy-policy
 
+### Google Play Games Services
+
+Some of our games use Google Play Games Services for sign-in, cloud saves,
+achievements and leaderboards. Using it is optional; if you decline the
+sign-in, the game runs normally and everything stays on your device.
+
+If you do sign in, Google provides the game with your Play Games **player ID**
+and **display name**, and Google collects and stores on your behalf:
+
+- Your achievement progress and unlocks
+- Your leaderboard scores
+- Your saved game, if the game uses cloud saves
+
+Saved games are stored by Google in the application data folder of your Google
+Drive. We have no server, so we never hold a copy - the save travels between
+your device and your own Google account. You can delete it at any time from
+Google Drive (Settings, then Manage apps) or by deleting the game's data in
+your Play Games profile.
+
+**Leaderboards are shared by design.** If you submit a score, your Play Games
+display name and that score are visible to other players of the same game on
+that leaderboard. If you would rather not appear, do not sign in, or hide your
+Play Games profile in your Play Games account settings.
+
+Google's handling of this data is governed by the Google Privacy Policy:
+https://policies.google.com/privacy
+
 ### Google Play Billing
 
 In-app purchases, where offered, are processed by Google Play Billing. Google handles the transaction, including your payment information; we only receive a confirmation that the purchase succeeded. See Google's payments policy for details.
@@ -82,6 +109,28 @@ Acuity is a home-screen launcher with focus features. **It collects no data.** I
 - **Calendar.** If you turn on the home-screen agenda, Acuity reads your upcoming calendar events to show the next few under the clock. Events are read on your device while the home screen is open, are never stored by Acuity and never leave your device. Leaving the agenda off means the permission is never requested.
 - **Your rules, messages and settings** are stored only on your device and can be exported by you as a plain file that you keep.
 - **Purchases.** Acuity offers a single one-time unlock via Google Play Billing (see above). There is no subscription.
+
+### Farthest South (polar expedition game)
+
+Farthest South is a single-player game. **It has no account of ours, no server
+of ours and no analytics.** Your expedition, its history and your settings are
+stored on your device.
+
+- **Ads.** The game shows ads through Google AdMob (see above), and offers
+  optional rewarded videos you can choose to watch. Declining them costs you
+  nothing that cannot also be earned by playing.
+- **Play Games Services.** Achievements and leaderboards use Play Games (see
+  above), including a leaderboard of how far south players have reached. Both
+  are optional and the game is complete without signing in.
+- **Notifications.** If you allow them, the game schedules reminders on your
+  device - chiefly to tell you an expedition has finished. They are scheduled
+  and delivered entirely by your phone; no message is sent from anywhere and
+  nothing about you is transmitted in order to produce one. You can turn them
+  off in the game or in Android's app settings.
+- **Randomised rewards.** The game contains recovered depots, whose contents
+  are randomised. Depots are found by playing and can also be funded with the
+  in-game currency. The chance of each possible outcome is shown inside the
+  game before you open or fund one.
 
 ## How we keep your data secure
 

@@ -3,9 +3,15 @@
 
 ⚠️ THIS EXISTS BECAUSE THE TWO DRIFTED, AND THE SERVED COPY WAS THE STALE ONE.
 
-GitHub Pages renders README.md as the index of this repo, so
-https://nextechsystems-au.github.io/privacy-policy/ serves README - NOT
+GitHub Pages USED to render README.md as this repo's index, so
+https://nextechsystems-au.github.io/privacy-policy/ served README - NOT
 PRIVACY.md, which is what the website syncs from and what everyone edits.
+That site is now a redirect (index.html) and is being unpublished; the only
+published policy is https://nextechsystems.com.au/privacy/.
+
+Keep this script anyway. README is the first thing anyone opens in this repo,
+and a README that disagrees with PRIVACY.md is how the wrong text gets copied
+somewhere that does publish.
 
 On 2026-09-01 they were 99 lines against 177. The published page was missing
 the Play Games Services section, Farthest South, and - worst - BOTH Rursus

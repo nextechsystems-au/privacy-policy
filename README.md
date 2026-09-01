@@ -43,7 +43,7 @@ You can reset or limit your Advertising ID in your device settings (Settings →
 
 Your answer decides what may be collected. Consenting allows the personalised advertising described above; declining allows at most non-personalised ads, which still involve your IP address and basic device information but are not based on a profile of you. If no ad may be requested at all - because you declined everything, or because the question could not be put to you - the app requests none, and removes the ad space rather than leaving an empty one on screen.
 
-You can change your answer at any time. In **Rursus** it is the **"Ad privacy choices"** row in Settings, which reopens the same Google form. Outside the EEA and the UK the form does not appear, because the requirement does not apply there.
+You can change your answer at any time. In **Rursus** it is the **"Ad privacy choices"** row in Settings, and in **Unmake** it is the **"ad privacy choices"** line beneath the Broadcast panel; both reopen the same Google form. Outside the EEA and the UK the form does not appear, because the requirement does not apply there.
 
 If an app offers a "Remove Ads" purchase and you complete it, AdMob is no longer initialised in that app and no further ad-related data is collected by us through it. There is nothing to consent to in that case, so no consent is collected either.
 

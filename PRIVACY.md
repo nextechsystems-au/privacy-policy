@@ -129,10 +129,11 @@ Unmake is a single-player game. **It has no account of ours, no server of ours
 and no analytics.** Your progress - the state of the ship you are dismantling
 and your upgrades - is stored on your device.
 
-- **Ads.** The game offers optional rewarded videos through Google AdMob (see
-  above): watching one grants the drone swarm a half-hour working shift, at
-  most five times a day. There are no banner or interstitial ads. Declining
-  them costs you nothing that cannot also be had by waiting.
+- **Ads.** The game shows ads through Google AdMob (see above): a banner, a
+  native ad presented as one of the game's own panels and labelled as an ad,
+  and optional rewarded videos - watching one grants the drone swarm a
+  half-hour working shift, at most five times a day. Declining a rewarded
+  video costs you nothing that cannot also be had by waiting.
 - **Purchases.** Salvage Scrip can be bought through Google Play Billing (see
   above). Scrip buys working time, never outcomes: everything it accelerates
   also happens by simply waiting, and the game contains no paid randomised

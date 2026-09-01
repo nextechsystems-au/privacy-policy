@@ -123,6 +123,23 @@ stored on your device.
   in-game currency. The chance of each possible outcome is shown inside the
   game before you open or fund one.
 
+### Unmake (salvage game)
+
+Unmake is a single-player game. **It has no account of ours, no server of ours
+and no analytics.** Your progress - the state of the ship you are dismantling
+and your upgrades - is stored on your device.
+
+- **Ads.** The game offers optional rewarded videos through Google AdMob (see
+  above): watching one grants the drone swarm a half-hour working shift, at
+  most five times a day. There are no banner or interstitial ads. Declining
+  them costs you nothing that cannot also be had by waiting.
+- **Purchases.** Salvage Scrip can be bought through Google Play Billing (see
+  above). Scrip buys working time, never outcomes: everything it accelerates
+  also happens by simply waiting, and the game contains no paid randomised
+  items.
+- **No permissions.** Unmake requests no device permissions: no notifications,
+  no location, and no access to anything outside its own app data.
+
 ## How we keep your data secure
 
 We take the security of user data seriously and apply the following practices:

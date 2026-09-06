@@ -1,6 +1,6 @@
 # Privacy Policy for Nextech Systems Apps
 
-**Last updated:** 1 September 2026
+**Last updated:** 7 September 2026
 
 This privacy policy explains how the mobile applications published by **Nextech Systems** ("we", "us", "our") handle your information. It applies to every app we publish unless an individual app's store listing or in-app notice says otherwise.
 
@@ -140,6 +140,18 @@ and your upgrades - is stored on your device.
   items.
 - **No permissions.** Unmake requests no device permissions: no notifications,
   no location, and no access to anything outside its own app data.
+
+### Whittle (timers and to-do)
+
+Whittle holds two kinds of thing: timers that are running, and tasks you have to do yourself. Both are made of words you typed, and both stay on your phone.
+
+- **Your timers and tasks.** Their names, lengths, stages, reminder times, colours, the note about what to do next, and the record of what you have ticked off are stored only on your device, in the app's private storage. **We never receive any of it, and neither does anybody else** - the app contains no code that sends it anywhere.
+- **Notifications.** A running timer appears as a live update on your lock screen and in the shade, and a task reminder arrives the same way, so the app needs notification permission. Without it, the thing the app exists to do cannot happen.
+- **Alarms.** Whittle schedules a single system alarm so that a timer finishes, a stage changes and a reminder arrives at the right moment, even with the app closed. If you allow exact alarms these are punctual; if you do not, Android batches them and they may be late, and the app says so on its own settings screen rather than pretending otherwise. Either way, nothing about the schedule leaves your device.
+- **Internet access.** Whittle has internet permission for one reason: the advertising SDK requires it. Nothing else in the app uses the network, there is no account, no sync and no analytics, and every feature works with the network switched off.
+- **Ads.** Whittle shows a single advert at the bottom of the list, via Google AdMob as described above. In the EEA and the UK you are asked to consent before any ad is requested, and where Google requires it the Settings screen carries an **"Ad privacy"** row that reopens Google's form so you can change your answer.
+- **Purchase.** Whittle offers a single one-time "Remove ads" unlock via Google Play Billing (see above). There is no subscription. Once it is bought the advertising SDK is **never started at all**, so nothing further is collected through it, and you are not asked for ad consent because there is nothing to consent to.
+- **Backup.** If you have Android backup enabled, your timers and tasks are included in your own device backup, held in your Google account under Google's terms. We have no access to it.
 
 ## How we keep your data secure
 

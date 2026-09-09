@@ -1,6 +1,6 @@
 # Privacy Policy for Nextech Systems Apps
 
-**Last updated:** 7 September 2026
+**Last updated:** 10 September 2026
 
 This privacy policy explains how the mobile applications published by **Nextech Systems** ("we", "us", "our") handle your information. It applies to every app we publish unless an individual app's store listing or in-app notice says otherwise.
 
@@ -100,6 +100,17 @@ Acuity is a home-screen launcher with focus features. **It collects no data.** I
 - **Calendar.** If you turn on the home-screen agenda, Acuity reads your upcoming calendar events to show the next few under the clock. Events are read on your device while the home screen is open, are never stored by Acuity and never leave your device. Leaving the agenda off means the permission is never requested.
 - **Your rules, messages and settings** are stored only on your device and can be exported by you as a plain file that you keep.
 - **Purchases.** Acuity offers a single one-time unlock via Google Play Billing (see above). There is no subscription.
+
+### Mantel (TV launcher)
+
+Mantel is a home screen for Android TV and Google TV. **It collects no data.** It has no analytics, no accounts and no advertising, and nothing you do in it is sent anywhere.
+
+- **App list.** As a launcher, Mantel lists the apps and HDMI inputs on your TV in order to display and open them. The list is read on the device and never leaves it.
+- **Continue watching.** If you turn the row on, Mantel reads the "watch next" entries that other apps on your TV publish to the Android TV system, and shows them. Nothing is recorded or transmitted, and the row is off until you turn it on.
+- **Accessibility service (Remote buttons).** If you enable it in the TV's Accessibility settings, Mantel uses Android's accessibility service for two things only: to notice the remote buttons you mapped so it can carry out the job you gave them, and to notice when the TV's own home screen comes to the front so Mantel can open over it, if you asked for that. It cannot read screen content (its configuration says so), it stores nothing about what you watch or press, and it is off until you turn it on. Turning it off in the TV's settings ends it at once.
+- **Screensaver.** If you set Mantel as the TV's screensaver, it shows your wallpaper or a folder of pictures you chose. The pictures are read from the device and never leave it.
+- **Your settings, folders, wallpaper and PIN** are stored only on your TV. You can export them as a plain file that you keep; the file never includes your purchase.
+- **Purchases.** Mantel offers a single one-time unlock after a 14-day trial, via Google Play Billing (see above). There is no subscription. The trial start date is stored only on your TV.
 
 ### Farthest South (polar expedition game)
 

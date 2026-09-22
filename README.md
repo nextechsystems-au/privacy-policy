@@ -5,7 +5,7 @@
 
 # Privacy Policy for Nextech Systems Apps
 
-**Last updated:** 1 September 2026
+**Last updated:** 22 September 2026
 
 This privacy policy explains how the mobile applications published by **Nextech Systems** ("we", "us", "our") handle your information. It applies to every app we publish unless an individual app's store listing or in-app notice says otherwise.
 
@@ -106,6 +106,44 @@ Acuity is a home-screen launcher with focus features. **It collects no data.** I
 - **Your rules, messages and settings** are stored only on your device and can be exported by you as a plain file that you keep.
 - **Purchases.** Acuity offers a single one-time unlock via Google Play Billing (see above). There is no subscription.
 
+### Facet, Reticle and Helm (launchers)
+
+Facet, Reticle and Helm are home-screen launchers built on one shared engine, so they handle your information in the same way; the features only Helm has are listed at the end. **They collect no data.** None of the three has internet permission, so nothing in them can send anything anywhere, and they have no analytics, no accounts and no advertising.
+
+- **App list.** As launchers, they list the apps installed on your device in order to display and open them. The list is read on your device and never leaves it.
+- **Calendar.** If you turn on the agenda, the launcher reads your upcoming calendar events to show the next few on the home screen. Events are read on your device while the home screen is open, are never stored by the launcher and never leave your device. The calendar permission is asked for when you turn the agenda on, and refusing it turns the agenda back off; leave it off and the permission is never requested.
+- **Notification access.** Turning on notification marks or the media pane takes you to the system screen that grants notification access, because Android has no dialog for it. The launcher uses that access for two things only: to mark an app that has a notification waiting, and to show what is playing and control it, since Android hands the current track only to an app with this access. It keeps in memory, only while it is running, which apps currently have a notification; it does not read, store or transmit the content of any notification, and the list is discarded when it stops or the access is withdrawn. You can withdraw the access on the same system screen at any time.
+- **Screen lock.** If you turn on double-tap to lock, the launcher asks for one device-administrator permission, force-lock, and uses it for exactly one thing: turning the screen off when you double-tap. It has no other administrator power, and you can remove it in the phone's Security settings at any time.
+- **Battery.** The battery figure shows the level and charging state your phone reports. It is read on the device and shown; nothing is recorded.
+- **Your settings**, including the apps you hide, the folders you make and the look you choose, are stored only on your device. These launchers opt out of Android backup, so no copy of your settings exists anywhere else.
+- **Trial and purchase.** Each launcher offers a single one-time unlock after a 14-day trial, via Google Play Billing (see above). There is no subscription. The trial start date is stored only on your device. When the trial ends the extras stop and the launcher itself keeps working.
+
+Helm adds three things the other two do not have:
+
+- **Contacts.** If you turn on contact search, Helm matches your contacts by name as you type in the app drawer, so you can call or open a person from the home screen. It reads only names and whether a contact has a phone number, and looks up the number only when you pick someone. Contacts are never stored by Helm and never leave your device. The contacts permission is asked for when you turn the feature on, and refusing it turns the feature back off; leave it off and the permission is never requested.
+- **App lock.** If you lock an app, Helm asks for your phone's own unlock, fingerprint, face, PIN, pattern or password, before opening it. The check is made by Android's own prompt; Helm never sees, stores or invents a credential of its own. The only thing Helm keeps is the list of apps you locked, on your device. If the prompt cannot be shown, the locked app does not open.
+- **Readouts.** Helm's readouts also show free memory and free storage as your phone reports them. They are read on the device and shown; nothing is recorded or transmitted.
+
+### Pegbound (plinko roguelike)
+
+Pegbound is a single-player game. **It has no account of ours, no server of ours and no analytics.** Your runs, unlocked charms, statistics and settings are stored on your device.
+
+- **Internet access.** Pegbound has internet permission for one reason: the advertising SDK requires it. The game itself is entirely offline. There is no account, no sync and no analytics, and every part of it works with the network switched off.
+- **Ads.** Pegbound shows a single banner advert, via Google AdMob as described above.
+- **Purchase.** Pegbound offers a single one-time "Remove ads" purchase via Google Play Billing (see above). There is no subscription. Once it is bought the advertising SDK is not started, so nothing further is collected through it.
+- **Backup.** If you have Android backup enabled, your runs and progress are included in your own device backup, held in your Google account under Google's terms. We have no access to it.
+
+### Mantel (TV launcher)
+
+Mantel is a home screen for Android TV and Google TV. **It collects no data.** It has no analytics, no accounts and no advertising, and nothing you do in it is sent anywhere.
+
+- **App list.** As a launcher, Mantel lists the apps and HDMI inputs on your TV in order to display and open them. The list is read on the device and never leaves it.
+- **Continue watching.** If you turn the row on, Mantel reads the "watch next" entries that other apps on your TV publish to the Android TV system, and shows them. Nothing is recorded or transmitted, and the row is off until you turn it on.
+- **Accessibility service (Remote buttons).** If you enable it in the TV's Accessibility settings, Mantel uses Android's accessibility service for two things only: to notice the remote buttons you mapped so it can carry out the job you gave them, and to notice when the TV's own home screen comes to the front so Mantel can open over it, if you asked for that. It cannot read screen content (its configuration says so), it stores nothing about what you watch or press, and it is off until you turn it on. Turning it off in the TV's settings ends it at once.
+- **Screensaver.** If you set Mantel as the TV's screensaver, it shows your wallpaper or a folder of pictures you chose. The pictures are read from the device and never leave it.
+- **Your settings, folders, wallpaper and PIN** are stored only on your TV. You can export them as a plain file that you keep; the file never includes your purchase.
+- **Purchases.** Mantel offers a single one-time unlock after a 14-day trial, via Google Play Billing (see above). There is no subscription. The trial start date is stored only on your TV.
+
 ### Farthest South (polar expedition game)
 
 Farthest South is a single-player game. **It has no account of ours, no server
@@ -145,6 +183,18 @@ and your upgrades - is stored on your device.
   items.
 - **No permissions.** Unmake requests no device permissions: no notifications,
   no location, and no access to anything outside its own app data.
+
+### Whittle (timers and to-do)
+
+Whittle holds two kinds of thing: timers that are running, and tasks you have to do yourself. Both are made of words you typed, and both stay on your phone.
+
+- **Your timers and tasks.** Their names, lengths, stages, reminder times, colours, the note about what to do next, and the record of what you have ticked off are stored only on your device, in the app's private storage. **We never receive any of it, and neither does anybody else** - the app contains no code that sends it anywhere.
+- **Notifications.** A running timer appears as a live update on your lock screen and in the shade, and a task reminder arrives the same way, so the app needs notification permission. Without it, the thing the app exists to do cannot happen.
+- **Alarms.** Whittle schedules a single system alarm so that a timer finishes, a stage changes and a reminder arrives at the right moment, even with the app closed. If you allow exact alarms these are punctual; if you do not, Android batches them and they may be late, and the app says so on its own settings screen rather than pretending otherwise. Either way, nothing about the schedule leaves your device.
+- **Internet access.** Whittle has internet permission for one reason: the advertising SDK requires it. Nothing else in the app uses the network, there is no account, no sync and no analytics, and every feature works with the network switched off.
+- **Ads.** Whittle shows a single advert at the bottom of the list, via Google AdMob as described above. In the EEA and the UK you are asked to consent before any ad is requested, and where Google requires it the Settings screen carries an **"Ad privacy"** row that reopens Google's form so you can change your answer.
+- **Purchase.** Whittle offers a single one-time "Remove ads" unlock via Google Play Billing (see above). There is no subscription. Once it is bought the advertising SDK is **never started at all**, so nothing further is collected through it, and you are not asked for ad consent because there is nothing to consent to.
+- **Backup.** If you have Android backup enabled, your timers and tasks are included in your own device backup, held in your Google account under Google's terms. We have no access to it.
 
 ## How we keep your data secure
 

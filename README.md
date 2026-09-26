@@ -106,6 +106,22 @@ Acuity is a home-screen launcher with focus features. **It collects no data.** I
 - **Your rules, messages and settings** are stored only on your device and can be exported by you as a plain file that you keep.
 - **Purchases.** Acuity offers a single one-time unlock via Google Play Billing (see above). There is no subscription.
 
+### Meantime (focus tool)
+
+Meantime is a focus tool: you choose the apps, app sections and websites you want to pause, limit or block, and it shows you your own pause screen when you open them. **We collect no data through it.** It has no analytics, no accounts and no advertising, and nothing we wrote in it uses the network.
+
+- **Internet access.** Meantime has internet permission for one reason: Google Play Billing, the library that handles the one-time unlock, brings it with it, and uses it to send its own logs to Google under Google's terms (see Google Play Billing above). Nothing else in it uses the network.
+- **App list.** Meantime lists the apps installed on your device so you can put one under a rule, and shows their icons. The list is read on your device and never leaves it.
+- **Usage access.** If you grant it, Meantime reads your device's app-usage records to see which app is in front and how long you have used each app today, so it can enforce the limits you set and show today's figures. These records are read on your device and never leave it.
+- **Accessibility service.** If you enable it, Meantime uses Android's accessibility service solely to detect that an app section you blocked (for example Reels or Shorts) or a website you blocked is on screen, which includes reading the address shown in your browser's address bar to compare it with your rules. Screen content is examined on your device at the moment of the check and is never recorded, stored or transmitted. With no such rules it detects nothing.
+- **Display over other apps.** Meantime asks for this permission so it can show your pause screen over the app you opened. It draws nothing else with it.
+- **Notification access.** If you turn on holding notifications, Meantime takes you to the system screen that grants notification access, because Android has no dialog for it. It then reads each notification as it arrives, the app it came from, its title and its text, keeps those in memory only while the app is running, and uses them to hold the notifications of the apps under a rule behind one collapsed line, to show them to you inside Meantime, and to mark which apps have one waiting. It never stores or transmits the content of any notification, and you can withdraw the access on the same system screen at any time.
+- **Battery optimisation.** Meantime may ask you to exempt it from battery optimisation, because some phones otherwise stop the watcher that shows your pause screen. The exemption is optional and changes nothing about what the app reads.
+- **A running notification.** While a rule is active, Meantime runs as a foreground service with one persistent notification, which is what Android requires of an app that watches for the apps you chose to limit. It watches only while a rule is active.
+- **Your rules, pause messages, focus sessions, schedules, daily goal and settings** are stored only on your device. So are the counts of how often each rule paused you and how often you continued anyway, kept per day so the app can show you what its pauses achieved. Meantime opts out of Android backup, so no copy of any of this exists anywhere else.
+- **Crash reports.** If Meantime crashes, it writes a short report to its private storage on your device: the error and basic device and app-version facts, never your rules, app list or content. The five most recent are kept, and nothing sends them anywhere.
+- **Trial and purchase.** Meantime offers a single one-time unlock after a 14-day trial, via Google Play Billing (see above). There is no subscription. The trial start date is stored only on your device.
+
 ### Cygnus, Facet, Reticle and Helm (launchers)
 
 Cygnus, Facet, Reticle and Helm are home-screen launchers built on one shared engine, so they handle your information in the same way; the features only Helm has are listed at the end. **We collect no data through them.** They have no analytics, no accounts and no advertising, and nothing we wrote in them uses the network.

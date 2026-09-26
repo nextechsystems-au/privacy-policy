@@ -1,6 +1,6 @@
 # Privacy Policy for Nextech Systems Apps
 
-**Last updated:** 22 September 2026
+**Last updated:** 26 September 2026
 
 This privacy policy explains how the mobile applications published by **Nextech Systems** ("we", "us", "our") handle your information. It applies to every app we publish unless an individual app's store listing or in-app notice says otherwise.
 
@@ -101,19 +101,21 @@ Acuity is a home-screen launcher with focus features. **It collects no data.** I
 - **Your rules, messages and settings** are stored only on your device and can be exported by you as a plain file that you keep.
 - **Purchases.** Acuity offers a single one-time unlock via Google Play Billing (see above). There is no subscription.
 
-### Facet, Reticle and Helm (launchers)
+### Cygnus, Facet, Reticle and Helm (launchers)
 
-Facet, Reticle and Helm are home-screen launchers built on one shared engine, so they handle your information in the same way; the features only Helm has are listed at the end. **They collect no data.** None of the three has internet permission, so nothing in them can send anything anywhere, and they have no analytics, no accounts and no advertising.
+Cygnus, Facet, Reticle and Helm are home-screen launchers built on one shared engine, so they handle your information in the same way; the features only Helm has are listed at the end. **We collect no data through them.** They have no analytics, no accounts and no advertising, and nothing we wrote in them uses the network.
 
+- **Internet access.** These launchers have internet permission for one reason: Google Play Billing, the library that handles the one-time unlock, brings it with it, and uses it to send its own logs to Google under Google's terms (see Google Play Billing above). Nothing else in them uses the network.
 - **App list.** As launchers, they list the apps installed on your device in order to display and open them. The list is read on your device and never leaves it.
 - **Calendar.** If you turn on the agenda, the launcher reads your upcoming calendar events to show the next few on the home screen. Events are read on your device while the home screen is open, are never stored by the launcher and never leave your device. The calendar permission is asked for when you turn the agenda on, and refusing it turns the agenda back off; leave it off and the permission is never requested.
-- **Notification access.** Turning on notification marks or the media pane takes you to the system screen that grants notification access, because Android has no dialog for it. The launcher uses that access for two things only: to mark an app that has a notification waiting, and to show what is playing and control it, since Android hands the current track only to an app with this access. It keeps in memory, only while it is running, which apps currently have a notification; it does not read, store or transmit the content of any notification, and the list is discarded when it stops or the access is withdrawn. You can withdraw the access on the same system screen at any time.
-- **Screen lock.** If you turn on double-tap to lock, the launcher asks for one device-administrator permission, force-lock, and uses it for exactly one thing: turning the screen off when you double-tap. It has no other administrator power, and you can remove it in the phone's Security settings at any time.
+- **Notification access.** Turning on the media pane takes you to the system screen that grants notification access, because Android has no dialog for it and hands the current track only to an app with this access. The launcher uses that access to show what is playing and to control it. Facet, Reticle and Helm also offer notification marks in their first release; turning marks on asks for the same access, which is then also used to mark an app that has a notification waiting. For that, the launcher keeps in memory, only while it is running, which apps currently have a notification, and discards the list when it stops or the access is withdrawn. The launcher does not read, store or transmit the content of any notification. You can withdraw the access on the same system screen at any time.
+- **Screen lock.** If you set a gesture, such as a double-tap, to lock the screen, the launcher asks for one device-administrator permission, force-lock, and uses it for exactly one thing: turning the screen off when you make that gesture. It has no other administrator power, and you can remove it in the phone's Security settings at any time.
+- **Widgets.** If you place another app's widget on the home screen, Android may first ask whether the launcher can create widgets and access their data, because a launcher needs that permission to show one. What the widget shows comes from the app it belongs to and is only displayed; the launcher does not record, store or transmit any of it.
 - **Battery.** The battery figure shows the level and charging state your phone reports. It is read on the device and shown; nothing is recorded.
 - **Your settings**, including the apps you hide, the folders you make and the look you choose, are stored only on your device. These launchers opt out of Android backup, so no copy of your settings exists anywhere else.
 - **Trial and purchase.** Each launcher offers a single one-time unlock after a 14-day trial, via Google Play Billing (see above). There is no subscription. The trial start date is stored only on your device. When the trial ends the extras stop and the launcher itself keeps working.
 
-Helm adds three things the other two do not have:
+Helm adds three things the other three do not have:
 
 - **Contacts.** If you turn on contact search, Helm matches your contacts by name as you type in the app drawer, so you can call or open a person from the home screen. It reads only names and whether a contact has a phone number, and looks up the number only when you pick someone. Contacts are never stored by Helm and never leave your device. The contacts permission is asked for when you turn the feature on, and refusing it turns the feature back off; leave it off and the permission is never requested.
 - **App lock.** If you lock an app, Helm asks for your phone's own unlock, fingerprint, face, PIN, pattern or password, before opening it. The check is made by Android's own prompt; Helm never sees, stores or invents a credential of its own. The only thing Helm keeps is the list of apps you locked, on your device. If the prompt cannot be shown, the locked app does not open.
@@ -213,7 +215,7 @@ We take the security of user data seriously and apply the following practices:
 Each app requests only the permissions required for its features. The Play Store listing for each app discloses the full set of permissions it uses. Common permissions across our apps include:
 
 - Notifications, for in-app alerts
-- Internet access, to display ads via AdMob (only in apps that show ads)
+- Internet access, which Google AdMob needs to display ads and which Google Play Billing brings with it (only in apps that show ads or offer purchases)
 - Billing, to process in-app purchases (only in apps that offer them)
 
 Apps with specialised features may request additional permissions; these are disclosed in each app's store listing. We do not request location, microphone, contacts, calendar, SMS, or camera image access in any of our apps unless that app explicitly states otherwise in its store listing, and any such permission is used only for the disclosed feature.
